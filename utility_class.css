@@ -1,0 +1,45 @@
+.invert{
+    filter: invert(1);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    place-items: center;
+    
+}
+
+.down2{
+    animation: dona1 8s  ease-in-out 0.1s backwards , dona2  0.1s ;
+    animation-direction: alternate;
+}
+
+@keyframes dona1 {
+    from{
+        filter: opacity(0);
+        transform: translatey(100px);
+        /* filter: invert(1); */
+    }
+    to{
+        filter: opacity(1);
+        transform: translatez(60px);
+        /* filter: invert(1); */
+        /* filter: blur(65px); */
+    }
+    
+}
+
+@keyframes dona2 {
+    from{
+        filter: opacity(0);
+        transform: translatey(60px);
+        /* filter: invert(1); */
+    }
+    to{
+        filter: opacity(1);
+        transform: translatez(100px);
+        /* filter: invert(1); */
+        /* filter: blur(65px); */
+    }
+    
+}
+    

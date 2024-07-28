@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility_class.css">
+</head>
+<main>
+
+    <nav class="navbar">
+        <img class="invert size" src="spacex.svg" alt="">
+        <ul>
+            <a href="index1.html"> 
+                <li>FALCON9</li>
+                </a>
+                <li>FALCON HEAVY</li>
+                <li>DRAGON</li>
+                <li>STARSHIP</li>
+                <li>HUMAN SPACEFLIGHT</li>
+                <li>RIDESHARE</li>
+                <li>STARSHIELD</li>
+                <li>STARLINK<li>
+        </ul>
+        <!-- <div class="nav">
+        <span>SHOP</span>
+        <span><img class="invert ham" src="hamburgur.svg" alt=""></span>
+        <ul class="menu">
+            <li>MISSION</li>
+            <li>LAUNCHES</li>
+            <li>CAREERS</li>
+            <li>UPDATES</li>
+            <li>SHOP</li>
+        </ul>
+        </div> -->
+
+    </nav>
+
+    <div class="contentttt">
+
+    <div class="bounds">
+
+    <div class="h1">
+        <p class="down2"><b>ADVANCING HUMAN  <br> SPACEFLIGHT</b></p>
+        <span><button class="translate down2">LEARN MORE</button></span>
+        <img  class= "invert down" src="arrow_down.svg" alt="">
+    </div>
+</main>
+<header>
+<div class="second">
+    <div class="h2">
+        <p class="down2">UPCOMING LAUNCH</p>
+        <span class="down2">STARLINK MISSION</span>
+        <span><button class="translate down2">WATCH</button></span>
+        <img  class= "invert down" src="arrow_down.svg" alt="">
+    </div>
+</div>
+
+<div class="third">
+    <div class="h3">
+        <p class="down2">UPCOMING LAUNCH</p>
+        <span class="down2">STARLINK MISSION</span>
+        <span><button class="translate down2">WATCH</button></span>
+        <img  class= "invert down" src="arrow_down.svg" alt="">
+    </div>
+</div>
+
+<div class="fourth">
+    <div class="h4">
+        <p class="down2"><b>TO MAKE LIFE <br> MULTIPLANETARY</b></p>
+        <span><button class="translate down2">LEARN MORE</button></span>
+        <img  class= "invert down" src="arrow_down.svg" alt="">
+    </div>
+</div>
+<br>
+<div class="fifth">
+    <div class="h5">
+        <p class="down2">RECENT LAUNCH</p>
+        <span class="down2">STARSHIP'S THIRD<br>FLIGHT TEST</span>
+        <span><button class="translate down2">LEARN MORE</button></span>
+        <img  class= "invert down" src="arrow_down.svg" alt="">
+    </div>
+</div>
+</div>
+</header>
+<div class="footer invert">
+    <ul>
+        <li>SPACEX © 2024</li>
+        <li>PRIVACY POLICY</li>
+        <LI>SUPPLIERS</LI>
+    </ul>
+</div>
+</header>
+<body>
+    <!-- <script src="script.js"></script> -->
+
+    <div class="nav">
+        <span>SHOP</span>
+        <span><img class="invert ham" src="hamburgur.svg" alt=""></span>
+        <ul class="menu" id="menu">
+            <li>MISSION</li>
+            <li>LAUNCHES</li>
+            <li>CAREERS</li>
+            <li>UPDATES</li>
+            <li>SHOP</li>
+        </ul>
+    </div>
+
+</div>
+
+    <script>
+        const hamburgur = document.querySelector('.ham');
+        const menu = document.getElementById('menu');
+
+        hamburgur.addEventListener('click', ()=>{
+            menu.classList.toggle('show-menu');
+        });
+
+        let prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+  let currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.querySelector(".navbar").style.top = "0";
+  } else {
+    document.querySelector(".navbar").style.top = "-80px"; // Adjust according to navbar height
+  }
+  prevScrollpos = currentScrollPos;
+}
+    </script>
+</body>
+</html>

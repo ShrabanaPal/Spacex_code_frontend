@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color:white;
+}
+main{
+    background-image: url("images/Eva_Suit_Desktop_alternate_\(x\).jpg");
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding:0;
+    /* background-color:black; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.size{
+    width:260px;
+}
+.navbar{
+    margin: 0px 50px;
+    display: flex;
+    gap:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    position: fixed;
+    top: 0;
+    transition: top 0s;
+}
+.navbar li:hover {
+    color: rgba(255, 244, 244, 0.803);
+    cursor: pointer;
+  }
+
+.navbar ul li{
+    list-style: none;
+    position: relative;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.navbar li::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.5s ease-in-out;
+}
+.navbar li:hover::after {
+    width: 100%;
+}
+.navbar ul{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    gap:20px;
+    overflow: hidden;
+}
+
+a li{
+    color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+}
+.h1 {
+    display: grid;
+    gap:0px;
+    margin: 0px 40px;
+    padding: 160px 20px;
+    word-break: break-all;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 60px;
+}
+.h1 p {
+    margin-top: 20px;
+}
+.h1 span button{
+    padding: 20px 20px;
+    margin: 20px 4px;
+    font-size: medium;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+.h1 span button:hover{
+    visibility: inherit;
+    transform: translate3d(0px, -36px 0px);
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.second{
+    background-image: url("images/Launch_Page_Starlink1_vertical_18_DESKTOP_098ae3251b.jpg");
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding:0;
+    /* background-color:black; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h2 {
+    display: grid;
+    gap:0px;
+    margin: 0px 40px;
+    padding: 150px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 80px;
+}
+
+.h2 p{
+    margin-top: 140px;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.h2 span{
+    font-size: 40px;
+    font-weight: 550;
+}
+
+.h2 span button{
+    padding: 20px 40px;
+    margin: 20px 4px;
+    font-size: medium;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+.h2 span button:hover{
+    visibility: inherit;
+    transform: translate3d(0px, -36px 0px);
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.third{
+    background-image: url("images/Vandy_desktop1_686164ccc7.jpg");
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding:0;
+    /* background-color:black; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h3 {
+    display: grid;
+    gap:0px;
+    margin: 0px 40px;
+    padding: 150px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 80px;
+}
+
+.h3 p{
+    margin-top: 140px;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.h3 span{
+    font-size: 40px;
+    font-weight: 550;
+}
+
+.h3 span button{
+    padding: 20px 40px;
+    margin: 20px 4px;
+    font-size: medium;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    background-color: rgba(184, 181, 181, 0);
+    color: white;
+    transition: background-color 0.5s ease;
+}
+.h3 span button:hover{
+    visibility: inherit;
+    transform: translate3d(0px, -36px 0px);
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.fourth{
+    background-image: url("images/make_life_multiplanetary_desktop_3fa7cff73c.jpg");
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h4 {
+    display: grid;
+    gap:0px;
+    margin: 0px 40px;
+    padding: 150px 20px;
+    word-break: break-all;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 80px;
+}
+
+.h4 p {
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 550;
+}
+.h4 span button{
+    padding: 20px 20px;
+    margin: 20px 4px;
+    font-size: medium;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    background-color: rgba(184, 181, 181, 0);
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.h4 span button:hover{
+    visibility: inherit;
+    transform: translate3d(0px, -36px 0px);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+.fifth{
+    background-image: url("images/Flight_3_Website_Desktop_2_8cd1983689.jpg");
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    margin: 500px 0px;
+    padding: 0;
+    background-color:black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h5 {
+    display: grid;
+    gap:0px;
+    margin: 0px 40px;
+    padding: 150px 20px;
+    word-break: break-all;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 80px;
+}
+
+.h5 p{
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.h5 span{
+    font-size: 40px;
+    font-weight: 550;
+}
+.h5 span button{
+    padding: 20px 20px;
+    margin: 20px 4px;
+    font-size: medium;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    background-color: rgba(184, 181, 181, 0);
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.h5 span button:hover{
+    visibility: inherit;
+    transform: translate3d(0px, -36px 0px);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.footer{
+    margin: 40px 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: -2090px;
+    right:550px;
+    margin: auto;
+}
+
+.footer ul li {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    transition: color  0.5s ease;
+}
+
+.footer ul{
+    display: flex;
+    gap:50px
+}
+
+.footer ul li:hover{
+    color: rgb(120, 116, 116);
+    visibility: inherit;
+    transform: translate3d(0px, -36px 0px);
+    cursor: pointer;
+}
+
+.down{
+    animation: dona 2s ease-in-out 0.5s infinite;
+    /* animation-direction: alternate-reverse; */
+}
+@keyframes dona {
+    from{
+        filter: opacity(1);
+        transform: translateY(2px);
+        filter: invert(1);
+    }
+    to{
+        filter: opacity(0);
+        transform: translatey(110px);
+        filter: invert(1);
+        filter: blur(65px);
+    }
+    
+}
+
+.nav .menu ul{
+    display: none;
+}
+
+.menu li{
+    color: white;
+    list-style:none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+.menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+.menu li {
+    padding: 10px;
+}
+
+.menu li:hover{
+    color: rgba(255, 244, 244, 0.803);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.show-menu {
+    display: block;
+    position: absolute;
+    bottom: -235px;
+}
+
+.ham{
+    margin: 0px 2px;
+    padding: 0px 9px;
+    position: absolute;
+    cursor: pointer;
+    top: -2px;
+}
+
+.ham img{
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    gap:20px;
+    position: absolute;
+    right: 67px;
+    top: 39px; 
+    position: fixed;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.nav span::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.5s ease-in-out;
+}
+.nav span:hover::after {
+    width: 60%;
+}
+
+.contentttt {
+    margin-top: 60px; /* Adjust according to navbar height */
+    /* Other styles for content */
+}
